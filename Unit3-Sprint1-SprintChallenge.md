@@ -264,9 +264,22 @@ career here, you'll have to answer the following:
 - What, in your opinion, is an important part of code reviews? That is, what is
   something you pay attention to when you review code, and that you appreciate
   when others do the same for your code?
+  
+  # Answer:
+  What I pay attention to when I do code review is looking at redundant code.  If a code can be written once, and then inherited later (in our case with the topic of OOP), then that should be done.  Also, being able to view the code for the first time as a stranger, and understand what the intent, function, and output should be is good.  So the code should be commented in parts that could be ambigious, yet concise.
+  
+  What I appreciate when others view my code is any insights on how I can make my code more elegant (examples: not rewriting code that can instead be made into a subclass (and thus inherits functionality from its parents).  Also, I like getting feedback on what I could have done better, where I could have included more clarity (comments) on certain parts, and making my code more elegant.
+  
 - We have an awful lot of computers here, and it gets pretty confusing with
   slightly different things running on all of them. How could containers help us
   improve this situation?
+  
+  # Answer:
+  Containers would DEFINITELY help improve the situation.  Containers start making sense when working with teams of people on a product/service/software.  Especially if those teams are working with different operating systems.  
+  
+  Containers, simplifies that process so that those team members working in different environments in Windows, Mac, Linux, for example.  Basically: it standardizes the environment.  
+  
+  That's just one example, but a core one.  In a nutshell, containers drive down costs, improve efficiency, speed of deployment, speed of configuring, and compatibility/maintainbility.
 
 Answer both of these questions (baseline ~5 sentences) here in text.
 
